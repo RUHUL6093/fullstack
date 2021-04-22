@@ -4,6 +4,10 @@ import Home from "./Components/Home/Home";
 import NotFound from "./Components/NotFound/NotFound";
 import Navbar from "./Components/Navbar/Navbar";
 import Login from "./Components/Login/Login";
+import Orders from "./Components/Orders/Orders";
+import Deal from "./Components/Deal/Deal";
+import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
+import Product from "./Components/Product/Product";
 
 export default function App() {
   return (
@@ -23,6 +27,15 @@ export default function App() {
           <Route path="*">
             <NotFound />
           </Route>
+          <PrivateRoute path="/Orders">
+            <Orders />
+          </PrivateRoute>
+          <PrivateRoute path="/Deal">
+            <Deal />
+          </PrivateRoute>
+          <PrivateRoute path="/Product">
+            <Product />
+          </PrivateRoute>
         </Switch>
       </Router>
     </div>

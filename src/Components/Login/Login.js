@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from "./firebase.confiq";
+import { useHistory, useLocation } from "react-router-dom";
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
 
 const Login = () => {
   const provider = new firebase.auth.GoogleAuthProvider();
+
+  const history = useHistory();
+  const location = useLocation();
+  const [error, setError] = useState("");
+  let { from } = location.state || { from: { pathname: "/" } };
+
   const handleGoogleSingnIn = () => {
     firebase
       .auth()
@@ -20,10 +27,11 @@ const Login = () => {
           img: user.photoURL
         };
         localStorage.setItem("user", JSON.stringify(loggedInUser));
+        history.replace(from);
       })
       .catch((error) => {
         const errorMessage = error.message;
-        console.log(errorMessage);
+        setError(errorMessage);
       });
   };
   return (
@@ -34,6 +42,7 @@ const Login = () => {
       >
         Continue With Google
       </button>
+      <p> {error}</p>
     </div>
   );
 };
