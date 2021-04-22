@@ -1,9 +1,11 @@
 import React from "react";
-
+import productData from "../../Components/fakeData/fakedata.json";
 const Products = () => {
   return (
-    <div>
-      <h1>list of products</h1>
+    <div className="row">
+      {productData.map((p) => (
+        <h4> {p.name}</h4>
+      ))}
     </div>
   );
 };
