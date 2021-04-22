@@ -14,7 +14,12 @@ const Login = () => {
       .signInWithPopup(provider)
       .then((result) => {
         const user = result.user;
-        console.log(user);
+        const loggedInUser = {
+          name: user.displayName,
+          email: user.email,
+          img: user.photoURL
+        };
+        localStorage.setItem("user", JSON.stringify(loggedInUser));
       })
       .catch((error) => {
         const errorMessage = error.message;
