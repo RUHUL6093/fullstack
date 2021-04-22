@@ -1,70 +1,75 @@
-{0	
+{
   "name":	"Marks Full Cream Milk Powder"
   "price":	"234"
-  "img":"https://i.ibb.co/FzgKTKB/image-32.png"},
-  {1	
+  "img":"https://i.ibb.co/FzgKTKB/image-32.png"
+}
+  {	
   "name":	"Moushum Bay leaves-200gm"
   "price":	"134"
-  "img":	"https://i.ibb.co/jf6TTPv/image-33.png"},
-  {2	
+  "img":	"https://i.ibb.co/jf6TTPv/image-33.png"
+  },
+  {	
   "name":	"Onion Local-1kg"
   "price":	"434"
-    "img":"https://i.ibb.co/TLPPS69/image-34.png"},
-  {3	
+    "img":"https://i.ibb.co/TLPPS69/image-34.png"
+  },
+  {	
   "name":	"Rashid Minicate Rice-1 kg"
   "price":"334"
-  "img":	"https://i.ibb.co/QdChxy5/image-35.png"},
-  {4	
+  "img":	"https://i.ibb.co/QdChxy5/image-35.png"
+  },
+  {	
   "name":	"Omera LFG Refill 12kg"
   "price":	"342"
-  "img":	"https://i.ibb.co/X3hY4Gz/image-36.png"},
-  {5	
-  
+  "img":	"https://i.ibb.co/X3hY4Gz/image-36.png"
+  },
+  {	
   "name":	"Bombay Sweets Mr.Twist-25gm"
   "price":"132"
-  "img":	"https://i.ibb.co/JccHh6d/image-37.png"},
-  {6	
-  
+  "img":	"https://i.ibb.co/JccHh6d/image-37.png"
+  },
+  {	
   "name":	"Lifeboy Soap bar Tota -100gm"
   "price":	"334"
-  "img":	"https://i.ibb.co/vP6wXGv/image-38.png"},
-  {7	
-  
+  "img":	"https://i.ibb.co/vP6wXGv/image-38.png"
+  },
+  {
   "name":	"Ruchi BBQ Chanachur-350gm"
   price	"342"
-  "img":	"https://i.ibb.co/q7Fwccq/image-39.png"},
-  {8	
-  
+  "img":	"https://i.ibb.co/q7Fwccq/image-39.png"
+  },
+  {
   "name":	"Parachute Coconut Oil-200ml"
   "price":	"132"
-  "img":	"https://i.ibb.co/XF4VmQr/image-40.png"},
-  {9	
-  
+  "img":	"https://i.ibb.co/XF4VmQr/image-40.png"
+  },
+  {	
   "name":	"Swqeet"
   "price":	"450 per /kg"
-  "img":	"https://i.ibb.co/sC1sCPJ/image41.jpg"],
-  {10	
-  
+  "img":	"https://i.ibb.co/sC1sCPJ/image41.jpg"
+  },
+  {	
   "name":	"Honey"
   "price":	"1200 per/kg"
-  "img":	"https://i.ibb.co/5xqJL49/image42.jpg"},
-  
-  {11
+  "img":	"https://i.ibb.co/5xqJL49/image42.jpg"
+  },
+  {
   "name":	"Dry fish"
   "price":	"850 per/kg"
-  "img": "https://i.ibb.co/54dqyQb/image43.jpg"},
-  {12	
-  
+  "img": "https://i.ibb.co/54dqyQb/image43.jpg"
+  },
+  {
   "name":	"Mustered Oil"
   "price":	"750per/kg"
-  "img":"https://i.ibb.co/P4S6Hcv/image44.jpg"},
-  {13	
-  
+  "img":"https://i.ibb.co/P4S6Hcv/image44.jpg"
+  },
+  {	
   "name":	"Ghee"
   "price":"1500per/kg"
-  "img":	"https://i.ibb.co/9wF6kXw/image45.jpg"},
-  {14	
-  
+  "img":	"https://i.ibb.co/9wF6kXw/image45.jpg"
+  },
+  {
   name	"Tangail Sweets"
   "price":"550/kg"
-  "img":	"https://i.ibb.co/M70D6wV/image46.jpg"},
+  "img":	"https://i.ibb.co/M70D6wV/image46.jpg"
+  }
