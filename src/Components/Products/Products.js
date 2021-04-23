@@ -6,8 +6,10 @@ const Products = () => {
     fetch("https://jsxuo.sse.codesandbox.io/addProducts", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title: "React POST Request Example" })
-    });
+      body: JSON.stringify(productData)
+    })
+      .then((res) => res.json())
+      .then((data) => console.log(data));
   };
   return (
     <div className="row">
