@@ -3,6 +3,7 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import firebaseConfig from "./firebase.confiq";
 import { useHistory, useLocation } from "react-router-dom";
+import Register from "../Register/Register";
 if (!firebase.apps.length) {
   firebase.initializeApp(firebaseConfig);
 }
@@ -36,6 +37,7 @@ const Login = () => {
   };
   return (
     <div className="container m-5 ">
+      <Register />
       <button
         onClick={handleGoogleSingnIn}
         className="btn btn-primary text-center"

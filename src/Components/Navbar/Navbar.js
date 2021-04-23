@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">
-          Grameen Ponno
+          <p class="fs-1">Grameen Ponno</p>
         </a>
 
         <button
@@ -36,9 +36,15 @@ const Navbar = () => {
                 Deal
               </a>
             </li>
-            <li class="nav-item ">
+
+            {/* <li class="nav-item ">
               <a class="nav-link active" href="/">
-                Admin
+                Register
+              </a>
+            </li> */}
+            <li class="nav-item " >
+              <a class="nav-link active" href="/">
+                Login
               </a>
             </li>
           </ul>
