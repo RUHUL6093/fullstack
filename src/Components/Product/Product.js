@@ -15,6 +15,7 @@ const Product = (props) => {
           <img className="img-fluid" src={img} alt="" />
           <h3> {name}</h3>
           <h5>Price:{price} Taka</h5>
+          <button onClick={props.handleAddProduct}>Buy now</button>
         </div>
       </Link>
     </div>

@@ -11,11 +11,14 @@ const Products = () => {
   //     .then((res) => res.json())
   //     .then((data) => console.log(data));
   // };
+  const handleAddProduct = () => {
+    console.log(handleAddProduct);
+  };
   return (
     <div className="row">
       {/* <button onClick={addAllProducts}>Add All</button> */}
       {productData.map((p) => (
-        <Product product={p}></Product>
+        <Product product={p} handleAddProduct={handleAddProduct}></Product>
       ))}
     </div>
   );
