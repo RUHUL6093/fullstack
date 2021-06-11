@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 const ProductDetail = () => {
   const { Name } = useParams();
   const [detail, setDetail] = useState({});
@@ -15,6 +15,9 @@ const ProductDetail = () => {
       <h1>This is Detail :{Name}</h1>
       <h3> {detail.name}</h3>
       {/* <h4> Price:{detail.price}</h4> */}
+      <Link to="/Orders">
+        <button className="btn btn-success">Place order</button>
+      </Link>
     </div>
   );
 };

@@ -31,9 +31,9 @@ export default function App() {
           <Route path="/Product">
             <Product />
           </Route>
-          <Route path="/Orders">
+          <PrivateRoute path="/Orders">
             <Orders />
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path="/Admin">
             <Admin />
           </PrivateRoute>
